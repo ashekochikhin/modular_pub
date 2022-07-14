@@ -1,2 +1,5 @@
-# modular_pub
- On Modular Approach to AI-Aided Musical Creativity
+## Public materials to 'On Modular Approach to AI-Aided Musical Creativity' paper.
+
+Results of modular techno style re-arranger system work.
+
+Developed with librosa https://librosa.org/doc/latest/index.html to perform tempo tracking, omnizart https://music-and-culture-technology-lab.github.io/omnizart-doc/ for harmony tracking and madmom https://github.com/CPJKU/madmom for downbeat tracking. Chorus detection was implemented using pychorus https://github.com/vivjay30/pychorus algorithm. Open-unmix https://github.com/sigsep/open-unmix-pytorch library was used to separate vocals from the original song chorus. Pyrubberband https://github.com/bmcfee/pyrubberband module was used to perform the original vocal time stretching. Music transcription module was implemented with specified version of omnizart provided algorithm. A rule-based techno arrangement generation model. The Csound-based https://csound.com sound synthesis module consists of layered kick sounds, snare, two hat and crash instruments (all sample based), and FM-based synthesizers.
